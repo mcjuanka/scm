@@ -1,0 +1,37 @@
+/************************** TREEGRID ********************************/
+.highlight{background-color:#CEE3F6;}
+.expanded td:first-child:before, .collapsed td:first-child:before {
+	border: 1px solid #999;
+	#text-align: center;
+}
+.treegrid {
+	overflow-x: auto;
+}
+.treegrid tr[data-level="1"] td:first-child {
+	padding-left: 10px;
+}
+.treegrid tr[data-level="2"] td:first-child {
+	padding-left: 15px;
+}
+/**************************FIX********************************/
+.table-fix tr {
+	width: 100%;
+	display: inline-table;
+	table-layout: fixed;
+}
+.table-fix {
+	display: -moz-groupbox;
+}
+.table-fix tbody {
+	overflow: scroll;
+	position: absolute;
+}
+/**********************************************************/
+/*.outer {position:relative}*/
+.inner {
+  #overflow-x: scroll;
+  #overflow-y: visible;
+  overflow: auto;
+  width: 100%;
+  margin-left: 100px;
+}
